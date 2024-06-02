@@ -19,7 +19,7 @@ platform-runcmd = echo LiteX/VexRiscv SMP
 
 PLATFORM_RISCV_XLEN = 32
 PLATFORM_RISCV_ABI = ilp32
-PLATFORM_RISCV_ISA = rv32ima
+PLATFORM_RISCV_ISA = rv32ima_zicsr_zifencei
 PLATFORM_RISCV_CODE_MODEL = medany
 
 # Blobs to build
